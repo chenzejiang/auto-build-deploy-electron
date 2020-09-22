@@ -1,0 +1,13 @@
+.container {
+  text-align: center;
+  position:relative;
+}
+.container .ImgBox {
+  margin-top: 20px;
+}
+.container .ImgBox img{
+  border: 6px solid #dadada;
+  border-radius: 6px;
+  width: 60%;
+  margin: 0 auto;
+}

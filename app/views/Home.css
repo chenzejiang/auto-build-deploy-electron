@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container {
+  text-align: center;
+  position:relative;
+}
+
+.container .HomeBox{
+  overflow-y: auto;
+}
+.container .HomeBox table{
+  text-align: center;
+  width:100%;
+  border: none;
+  background: #F2F2F2;
+}
+.container .HomeBox table th{
+  background: #00385F;
+  color: #FFF;
+}
+.container .HomeBox table tr{
+  height: 60px;
+}
+.container .HomeBox table tr td p{
+  font-size:14px;
+}
+.container .HomeBox table tr td{
+  padding:0 20px;
+}
+.container .button{
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000;
+  color:#fff;
+  border-radius: 5px;
+  margin: 0 10px;
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+  line-height: 30px;
+}
+
+.container select {
+  width: 400px;
+  height: 50px;
+}
+
+.container .HomeBox table tr td .project {
+  border: 2px solid #000;
+  height:40px;
+  line-height: 40px;
+  font-size:14px;
+  color: #111;
+  background: #FFF;
+  margin: 0 auto;
+  width: 100%;
+  padding:0 10px;
+}
+
+.container button:hover {
+  opacity: 0.7;
+  transition:all 0.2s ease;;
+}
+
+button.select{
+  background: #3c7bff;
+}
+
+button.del{
+  background: #FF4B41;
+}
+
+button.success{
+  background: #18bf0d;
+}
+
+.container .addLine{
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  line-height: 50px;
+  display: block;
+  text-decoration: none;
+  background: #00385F;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 50px;
+  margin: 20px auto 0 auto;
+}
+
+.container .footer {
+  width: 100%;
+  background: rgba(0,0,0,0.2);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  
+}
+.container .footer .flexBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.container .footer .chromePathBox{
+  padding: 10px 0;
+}
+.container .footer .chromePathBox input{
+  width: 30%;
+}
+.container .footer .chromePathBox button{
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000;
+  border-left: none;
+  color:#fff;
+  padding: 0 10px;
+  height: 44px;
+  line-height: 44px;
+  cursor: pointer;
+}
+
+
+
+.container .footer .inputBox{
+  margin: 0 20px;
+}
+.container .footer input {
+  border: 2px solid #000;
+  height:40px;
+  line-height: 40px;
+  font-size:14px;
+  color: #111;
+  background: #FFF;
+  width: 200px;
+  padding:0 10px;
+}
+.container .footer span{
+  color: #fff;
+  font-size: 18px;
+}
+.none{
+  display: none;
+}

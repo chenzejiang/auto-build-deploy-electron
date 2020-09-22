@@ -1,0 +1,108 @@
+
+.container {
+  text-align: center;
+  position:relative;
+}
+
+.container button:hover {
+  opacity: 0.7;
+  transition:all 0.2s ease;;
+}
+
+.container .btnBox {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.container .btnBox .btn {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+  color:#fff;
+  border-radius: 5px;
+  margin:0 30px;
+  padding: 10px 20px;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  background: #00385F;
+  font-size: 20px;
+}
+
+.container table a {
+  color: #008000;
+  text-decoration: underline;
+  font-size:18px;
+}
+.container .tableBox{
+  width: 100%;
+  overflow-y: auto;
+}
+
+.container .tableBox table{
+  text-align: center;
+  width:100%;
+  border: none;
+  background: #F2F2F2;
+}
+.container .tableBox table th{
+  background: #00385F;
+  color: #FFF;
+}
+.container .tableBox table tr{
+  height: 60px;
+}
+.container .tableBox table tr td p{
+  font-size:14px;
+}
+.container .tableBox table tr .delMapTd input{
+  margin: 0 10px;
+}
+.buildBox{
+  width: 80%;
+  margin: 100px auto 0 auto;
+}
+.buildBox .buildBoxText{
+  min-height: 300px;
+  background: #111;
+  padding: 20px;
+}
+.buildBox .buildBoxText p{
+  color: #4dd9fb;
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+}
+.container .btnBox .del{
+  background: #FF4B41;
+  color: #000;
+  border-color: #000;
+  font-weight: bold;
+}
+.buildInfo{
+  color: #ffe45b;
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.configJson{
+  color: #000;
+}
+.configJson textarea{
+  width: 100%;
+  min-height: 570px;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 21px;
+  background: #f2f2f2;
+  border-top: 1px solid #999;
+  color:#111;
+  resize: vertical;
+  box-sizing: border-box;
+}
+.none{
+  display: none;
+}
